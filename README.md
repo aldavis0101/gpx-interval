@@ -2,6 +2,8 @@
 This is a python script that analyzes a .gpx file from a GPS device to find the fastest interval of a given length. 
 GPX is a standard format for representing a GPS track.
 
+To run this script you will need a Python environment and the ability to install additional packages that the script requires.
+
 The interval can be specified in distance units, in which case it finds the segment in which the specified distance is covered in the 
 least amount of time, or in time units, in which case it finds the segment in which the greatest distance is covered in specified time.
 
