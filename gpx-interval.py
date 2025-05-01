@@ -197,14 +197,14 @@ def find_best_interval(interval):
         j = j + 1
       else:
         speed = dist / elapsed
-        if best_interval['start'] == None or speed > best_interval['speed']:
+        if best_interval['start'] is None or speed > best_interval['speed']:
           best_interval.update({'start': i, 'end': j, 'speed': speed})
         # note: don't advance j, since [i+1,j] could also be a candidate
         break
 
   # This should not happen; with a long-enough track there must be at least 
   # one interval
-  if not best_interval['start']:
+  if best_interval['start'] is None:
      print("no interval found")
      return
 
