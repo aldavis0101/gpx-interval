@@ -1,7 +1,11 @@
+#!/usr/bin/env python3
+#
 # gpx-interval.py - find fastest interval(s) of given length or time from GPX file
 #
 # usage: python gpx-interval.py [-2d] [-interval NN.<unit>] <file>.gpx
 #   where <unit> is one of ft, yd, mi, m, km, sec, min, hr
+#
+# GPX file must have a single track.
 
 # Adapted from https://www.wouternieuwerth.nl/how-to-find-the-fastest-section-within-a-gpx-file-with-python-jupyter-notebooks/
 
