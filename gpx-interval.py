@@ -36,6 +36,7 @@ class Interval:
   unit_table = {'ft' : { 'type' : 'distance', 'factor' : 3.28084 }, 
                 'yd' : { 'type' : 'distance', 'factor' : 1.093613 },
                 'mi' : { 'type' : 'distance', 'factor' : 0.0006213712 },
+                'nm' : { 'type' : 'distance', 'factor' : 0.0005399568 },
                 'm'  : { 'type' : 'distance', 'factor' : 1.0 },
                 'km' : { 'type' : 'distance', 'factor' : .001 }, 
                 'sec': { 'type' : 'time',     'factor' : 1.0 }, 

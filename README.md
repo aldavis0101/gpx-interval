@@ -27,7 +27,7 @@ Here's an example:. Let's say we want to find the fastest mile in a GPX file cal
 Some additional notes:
 - The -interval option specifies the interval(s). It can be abbreviated as -i. Multiple intervals can be specified. For
 example `-i 1mi -i 1hr` would find both the fastest mile and the most distance covered in any 1-hour stretch.
-Distance units can be any of 'ft' (feet), 'yd' (yards), 'm' (meters), or 'mi' (miles). Time units can be any of 'sec', 'min', or 'hr'.
+Distance units can be any of 'ft' (feet), 'yd' (yards), 'm' (meters), 'mi' (miles), or 'nm' (nautical miles). Time units can be any of 'sec', 'min', or 'hr'.
 
 - The option '-2d' causes altitude readings from the GPS to be ignored. This is useful for increased accuracy at constant altitudes
 (such as on water) since altitude from most GPS devices is not very accurate.
